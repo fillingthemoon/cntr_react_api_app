@@ -21,23 +21,30 @@ function Home() {
 
   return (
     <div id="home-container">
-    <h1> Centaur React API App </h1>
+    <h1> Ethereum ReactJS API App </h1>
 
-    <div id="container">
-      <h3> Ethereum Address: </h3>
-      <p> {blkAddress} </p>
-    </div>
+      <div id="api-website">
+        <p> using the <a href="https://www.blockcypher.com/dev/ethereum/#introduction" target="_blank">BlockCypher Ethereum API</a> </p>
+      </div>
 
-    <div id="container">
-      <h3> Current Ethereum block height: </h3>
-      <p> {blkHeight} </p>
-    </div>
+      <div id="container">
+        <h3> Ethereum Address: </h3>
+        <p> {blkAddress} </p>
+      </div>
 
-    <div id="container">
-      <h3> Ethereum balance of address (wei): </h3>
-      <p> {addBal} </p>
-    </div>
+      <div id="container">
+        <h3> Current Ethereum block height: </h3>
+        <p> {blkHeight} </p>
+      </div>
 
+      <div id="container">
+        <h3> Ether balance of address (wei): </h3>
+        <p> {addBal} </p>
+      </div>
+
+      <div id="github-link">
+        <p><a href="https://github.com/fillingthemoon/cntr_react_api_app" target="_blank"> GitHub repo here </a></p>
+      </div>"
     </div>
   );
 }

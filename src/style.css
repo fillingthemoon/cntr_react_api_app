@@ -9,14 +9,32 @@ body {
   align-items: center;
 }
 
-#container {
-  display: flex;
-}
-
 h1 {
   font-family: 'DM Sans', sans-serif;
   color: #33cc33;
   font-size: 3em;
+  margin-bottom: 5px;
+}
+
+#api-website {
+  font-size: 1em;
+  margin: 5px 0px 30px 0px;
+}
+
+a {
+  text-decoration: None;
+  color: #33cc33;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+#container {
+  display: flex;
+  margin: 10px;
 }
 
 h3 {
@@ -27,8 +45,18 @@ h3 {
 }
 
 p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Mono', sans-serif;
   color: white;
   font-size: 1.5em;
   margin: 10px;
+}
+
+#github-link {
+  margin-top: 200px;
+  transition: 0.3s;
+}
+
+#github-link p:hover {
+  color: #33cc33;
+  transition: 0.3s;
 }
