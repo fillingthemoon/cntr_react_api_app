@@ -1,0 +1,10 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+#home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
