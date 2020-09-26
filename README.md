@@ -1,1 +1,3 @@
-# This project was created using ReactJS and RESTful APIs.
+# ReactJS App
+
+This project was created with ReactJS and uses RESTful APIs.
