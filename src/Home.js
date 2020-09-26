@@ -28,7 +28,7 @@ function Home() {
       </div>
 
       <div id="container">
-        <h3> Ethereum Address: </h3>
+        <h3> Ethereum address: </h3>
         <p> {blkAddress} </p>
       </div>
 
