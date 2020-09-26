@@ -6,15 +6,15 @@ function Home() {
       <h1> Centaur React API App </h1>
 
       <div>
-        <h2> Ethereum Address: </h2>
+        <p> Ethereum Address: </p>
       </div>
 
       <div>
-        <h2> Current Ethereum block height: </h2>
+        <p> Current Ethereum block height: </p>
       </div>
 
       <div>
-        <h2> Current Ethereum block height: </h2>
+        <p> Current Ethereum block height: </p>
       </div>
     </div>
   );
